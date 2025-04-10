@@ -15,7 +15,7 @@ const PianoKey = ({ note, callback }) => {
 
     const showImage = () => {
         const img = document.createElement('img');
-        img.src = 'gifs//no.gif';  // Aggiungi il percorso dell'immagine
+        img.src = 'gifs//' + (Math.floor(Math.random() * 5) + 1).toString() +'.png';  // Aggiungi il percorso dell'immagine
         img.alt = 'Note image';
         img.className = 'note-image';
         img.style.position = 'absolute';
