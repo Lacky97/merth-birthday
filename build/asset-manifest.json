@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/merth-birthday/static/css/main.5e85a51a.css",
-    "main.js": "/merth-birthday/static/js/main.f72fe48a.js",
+    "main.js": "/merth-birthday/static/js/main.ba7f9481.js",
     "static/js/453.9bc37f01.chunk.js": "/merth-birthday/static/js/453.9bc37f01.chunk.js",
     "index.html": "/merth-birthday/index.html",
     "main.5e85a51a.css.map": "/merth-birthday/static/css/main.5e85a51a.css.map",
-    "main.f72fe48a.js.map": "/merth-birthday/static/js/main.f72fe48a.js.map",
+    "main.ba7f9481.js.map": "/merth-birthday/static/js/main.ba7f9481.js.map",
     "453.9bc37f01.chunk.js.map": "/merth-birthday/static/js/453.9bc37f01.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e85a51a.css",
-    "static/js/main.f72fe48a.js"
+    "static/js/main.ba7f9481.js"
   ]
 }

@@ -75,7 +75,6 @@ const PianoKey = ({ note, callback }) => {
             className="piano-key"
             onClick={handlePlay}
         >
-            {note}
         </button>
     );
 };

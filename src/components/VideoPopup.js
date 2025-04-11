@@ -91,7 +91,7 @@ const VideoPopup = ({isOpen}) => {
                 >
                     <div style={videoContainerStyle}>
                         <video
-                            src="/path/to/your/video.mp4"
+                            src="video/auguri.mov"
                             autoPlay
                             muted
                             controls={false}
