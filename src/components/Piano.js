@@ -3,8 +3,8 @@ import PianoKey from './PianoKey';
 
 const Piano = ({openPopup}) => {
 
-    //const correctSequence = ['Do','Do','Re','Do','Fa','Mi', 'Do','Do','Re','Do', 'Sol', 'Fa', 'Do','Do','DoM','La','Fa','Mi', 'Re', 'Sib','Sib','La', 'Fa', 'Sol', 'Fa'];
-    const correctSequence = ['Do','Do'];
+    const correctSequence = ['Do','Do','Re','Do','Fa','Mi', 'Do','Do','Re','Do', 'Sol', 'Fa', 'Do','Do','DoM','La','Fa','Mi', 'Re', 'Sib','Sib','La', 'Fa', 'Sol', 'Fa'];
+
     const keys = ['Do', 'Re', 'Mi', 'Fa', 'Sol', 'La', 'Si', 'DoM', 'Reb', 'Mib', 'Solb', 'Lab', 'Sib'];
     const [playedNotes, setPlayedNotes] = useState([]);
 
