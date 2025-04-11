@@ -93,7 +93,6 @@ const VideoPopup = ({isOpen}) => {
                         <video
                             src="video/auguri.mov"
                             autoPlay
-                            muted
                             controls={false}
                             onLoadedMetadata={handleVideoLoaded}
                             style={videoStyle}
@@ -101,45 +100,6 @@ const VideoPopup = ({isOpen}) => {
                             Il tuo browser non supporta il tag video.
                         </video>
                     </div>
-
-                    {isVideoReady && (
-                        <motion.div
-                            style={textContainerStyle}
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{
-                                delay: 0.5,
-                                type: "tween",
-                                duration: 0.3
-                            }}
-                        >
-                            <TypeIt
-                                options={{
-                                    strings: [
-                                        "Benvenuto in un'esperienza unica!",
-                                        "Preparati a un viaggio straordinario."
-                                    ],
-                                    speed: 50,
-                                    waitUntilVisible: true,
-                                }}
-                                style={typedTextStyle}
-                            />
-
-                            <motion.p
-                                initial={{ opacity: 0 }}
-                                animate={{ opacity: 1 }}
-                                transition={{
-                                    delay: 2,
-                                    type: "tween",
-                                    duration: 0.3
-                                }}
-                                style={descriptionTextStyle}
-                            >
-                                Ogni momento è un'opportunità di crescita e scoperta.
-                                Lascia che questa esperienza ti trasformi.
-                            </motion.p>
-                        </motion.div>
-                    )}
                 </motion.div>
             </motion.div>
         </AnimatePresence>
